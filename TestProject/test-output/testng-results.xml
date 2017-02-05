@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14474" started-at="2017-02-05T22:49:57Z" finished-at="2017-02-05T22:50:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14474" started-at="2017-02-05T22:49:57Z" finished-at="2017-02-05T22:50:12Z">
+      <class name="CreateComputer.RegressionTest">
+        <test-method status="PASS" signature="startFireFox()[pri:0, instance:CreateComputer.RegressionTest@224edc67]" name="startFireFox" is-config="true" duration-ms="6754" started-at="2017-02-05T23:49:57Z" finished-at="2017-02-05T23:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startFireFox -->
+        <test-method status="PASS" signature="addComputer()[pri:0, instance:CreateComputer.RegressionTest@224edc67]" name="addComputer" duration-ms="2406" started-at="2017-02-05T23:50:04Z" finished-at="2017-02-05T23:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputer -->
+        <test-method status="PASS" signature="searchAndUpdateComputer()[pri:0, instance:CreateComputer.RegressionTest@224edc67]" name="searchAndUpdateComputer" duration-ms="1946" started-at="2017-02-05T23:50:06Z" depends-on-methods="CreateComputer.RegressionTest.addComputer" finished-at="2017-02-05T23:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndUpdateComputer -->
+        <test-method status="PASS" signature="searchAndDeleteComputer()[pri:0, instance:CreateComputer.RegressionTest@224edc67]" name="searchAndDeleteComputer" duration-ms="1774" started-at="2017-02-05T23:50:08Z" depends-on-methods="CreateComputer.RegressionTest.searchAndUpdateComputer" finished-at="2017-02-05T23:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndDeleteComputer -->
+        <test-method status="PASS" signature="cleaupProc()[pri:0, instance:CreateComputer.RegressionTest@224edc67]" name="cleaupProc" is-config="true" duration-ms="1572" started-at="2017-02-05T23:50:10Z" finished-at="2017-02-05T23:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaupProc -->
+      </class> <!-- CreateComputer.RegressionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
